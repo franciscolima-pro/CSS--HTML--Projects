@@ -11,7 +11,7 @@
  h1, h2 {
     font-family: 'Croissant One' sans-serif;
     color: rgb(104, 19, 81);
-    text-shadow: 2px 2px 25px;
+    box-shadow: 2px 2px 25px;
     text-align: center;
     padding: 20px;
  }
