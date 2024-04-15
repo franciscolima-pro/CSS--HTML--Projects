@@ -1,0 +1,43 @@
+body {
+    background-color: #d1def1;
+}
+.imge {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 25px black;
+    padding: 0.40rem;
+    text-align: left;
+    margin-right: 30px;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    text-align: center;
+    color: rgb(91, 48, 75);
+    text-shadow: 3px 4px 25px;
+}
+.call-to-action {
+    text-align: center;
+    background-color: rgb(91, 48, 75);
+    border-radius: 10px;
+    color: rgb(250, 248, 246);
+    padding: 10px;
+    box-shadow: 3px 8px 25px black;
+}
+.call-to-action a {
+    color: rgb(244, 247, 250);
+}
+.table-trips {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.table-trips thead tr th{
+    padding: 0 30px;
+}
+footer{
+    text-align: center;
+    padding: 50px;
+}

@@ -1,0 +1,52 @@
+* { 
+    box-sizing: border-box;
+}
+/*Class Selectors*/
+.box{
+    margin: 1rem;
+    padding: 3rem;
+    border: 1px solid rgba (0,0,0,.1);
+    background-color: #bbdae4;
+}
+main img {
+    /*float image to right*/
+    float: right;
+    width: 200px;
+    box-shadow: 3px 3px 3px #55a1a1;
+    border-radius: 3px;
+    margin: 20px;
+    position: relative;
+    bottom: 30px;
+  }
+  aside img{
+    box-shadow: 5px 4px 4px #5abcbc;
+    border-radius: 3px;
+    float: left;
+    margin: 15px;
+    width: 280px;
+    position: relative;
+    bottom: 80px;
+  }
+  aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+  }
+  body {
+    background-color: #d6f0e8;
+    margin: 90px;
+  }
+  h1 {
+    text-shadow: 2px 5px 3px #8f9595;
+    text-align: center;
+  }
+  aside div {
+    width: 98%;
+    text-align:end;
+  }
+  main div {
+    text-align: end;
+  }
+  footer {
+    text-align:start;
+  }
