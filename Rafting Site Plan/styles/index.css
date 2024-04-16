@@ -3,23 +3,25 @@
 }
 /*Class Selectors*/
 .box{
-    margin: 1rem;
+    margin: 5rem;
     padding: 3rem;
     border: 1px solid rgba (0,0,0,.1);
-    background-color: #bbdae4;
+    background-image: linear-gradient( rgb(253, 252, 252), rgb(162, 197, 216));
+    box-shadow: 1px 1px 15px;
+
 }
-main img {
+.profile {
     /*float image to right*/
     float: right;
-    width: 200px;
-    box-shadow: 3px 3px 3px #55a1a1;
+    width: 210px;
+    box-shadow: 3px 3px 3px #080909;
     border-radius: 3px;
     margin: 20px;
     position: relative;
-    bottom: 30px;
+    bottom: 85px;
   }
   aside img{
-    box-shadow: 5px 4px 4px #5abcbc;
+    box-shadow: 5px 4px 4px #0a0a0a;
     border-radius: 3px;
     float: left;
     margin: 15px;
@@ -33,20 +35,67 @@ main img {
     left: 150px;
   }
   body {
-    background-color: #d6f0e8;
-    margin: 90px;
+    background-image:linear-gradient( rgb(242, 244, 245),rgb(162, 197, 216));
   }
   h1 {
     text-shadow: 2px 5px 3px #8f9595;
     text-align: center;
+    padding-bottom: 30px;
   }
   aside div {
     width: 98%;
     text-align:end;
+
   }
   main div {
     text-align: end;
   }
   footer {
-    text-align:start;
+    text-align:center;
+    padding-top: 70px;
   }
+  .prof {
+    margin-left: 70px;
+    padding: 20px;
+  }
+  .lis {
+    margin: 5rem;
+    padding: 3rem;
+    border: 1px solid rgba (0,0,0,.1);
+    background-image: linear-gradient( rgb(253, 252, 252), rgb(162, 197, 216));
+    box-shadow: 1px 1px 15px black;
+    list-style-type: none;   
+
+  }
+  ul li a {
+    text-decoration:none;
+    color: rgb(204, 108, 12);
+  }
+  ul img {
+    width: 140px;
+    float: right;
+    margin: 2rem;
+    margin-left: 5rem;
+    bottom: 75px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 22px;
+    border-radius: 70px;
+  }
+  header nav {
+    box-shadow: 1px 1px 3px black;
+    text-align: center;
+    margin: 8rem;
+    padding: 5px;
+  }
+  header nav a {
+    text-decoration: none;
+    color:rgb(204, 108, 12) ;
+  }
+  footer p a {
+    text-decoration: none;
+    color: rgb(204, 108, 12);
+  }
+
+  
