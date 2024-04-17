@@ -9,12 +9,13 @@
     --paragraph-font: 'Inclusive Sans', sans-serif; 
 }
  h1, h2 {
-    font-family: 'Croissant One' sans-serif;
+    font-family: var(--heading-font);
     color: var(--accent1-color);
     box-shadow: 2px 2px 2px black;
     text-align: center;
     padding: 10px;
     margin: 60px;
+    text-shadow: 2px 3px #02060c;
 
  }
  p {
@@ -32,8 +33,8 @@
   
   .hero img {
     display: block;
-    width: 220px;
-    height: 220px;
+    width: 500px;
+    height: 280px;
     margin: 20px;
   }
   
@@ -52,22 +53,27 @@
     grid-template-columns: 1fr auto;
     align-items: center;
     font-size: 80px;
-
-
   }
   .nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #ffffff;
+    background-color: #db7006;
     border-radius: 5px;
+    font-family: var(--heading-font);
 
   }
   .nav a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--accent1-color);
+    color: white;
     text-decoration: none;
+    transition: transform 0.3seg ease-in-out;
+  }
+  main section img:hover {
+    transform: scale(1.1);
+    border: 2px solid #02060c;
+    box-shadow: 3px 4px 20px;
   }
   .social-links {
     display: flex;
@@ -75,14 +81,18 @@
     justify-content: right;
   }
   .bordered {
-    box-shadow: 2px 4px 20px #02060c;
     border-radius: 8px;
     padding: 0.15rem;
+    border: solid #02060c;
+  }
+  main div img:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 4px 20px #1e0923;
   }
   .hist {
-    box-shadow: 2px 4px 20px #1e0923;
     padding: 0.15rem;
     border-radius: 8px;
+    border: solid #02060c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,60 +103,10 @@
 .borderr {
   border: 2px solid #02060c;
   border-radius: 8px;
-  box-shadow: 3px 4px 20px;
   padding: 0.15rem;
   margin-left: 60px;
 }
-.employee img {
-  display: block;
-  width: 300px;
-  border-radius: 20px;
-}
-.employee {
-  font-size: 20px;
-  color: #f9f9f9;
-  font-family: sans-serif;
-}
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-}
 
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-}
-
-
-.button {
-    background-color: #067af7; 
-    color: #fff; 
-    padding: 15px 20px; 
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px; 
-    transition: background-color 0.3s;
-}
-
-input[type="submit"]:hover {
-    background-color: #0056b3; 
-}
 p {
   font-family: 'Inclusive Sans', sans-serif;
   color: rgb(9, 8, 9);

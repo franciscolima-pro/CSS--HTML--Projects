@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inclusive+Sans&display=swap');
+:root {
+    --primary-color: #052d68;
+    --secondary-color: #1b1ba7; 
+    --accent1-color: #db7006; 
+    --accent2-color: #f2ebea;
+  
+    --heading-font: 'Croissant One', serif; 
+    --paragraph-font: 'Inclusive Sans', sans-serif; 
+}
+
+body {
+    text-align: center;
+    font-family: var(--heading-font);
+}
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+main h1 , h2 {
+    color: var(--accent1-color);
+    margin: 5rem;
+}
+.nav img {
+    margin-right: 160px;
+    margin-left: 200px;
+}
+.employee {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.employee img {
+    width: 400px;
+    border-radius: 5px;
+    border: solid black;
+    padding: 0.15rem;
+}
+.employee img:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 15px black;
+
+}
+.employee img tooltip
+  input[type="text"],
+  input[type="email"],
+  textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 16px;
+  }
+  
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 16px;
+  }
+  
+  
+  .button {
+      background-color: #020203; 
+      color: #fff; 
+      padding: 15px 20px; 
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px; 
+      transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+      background-color: #c01414; 
+  }
+  form {
+    margin: 80px;
+  }
+footer nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

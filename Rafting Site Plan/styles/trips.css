@@ -1,13 +1,17 @@
 body {
-    background-color: #d1def1;
+    background-image: linear-gradient(white, #ffffff);
 }
 .imge {
     width: 400px;
     border-radius: 10px;
-    box-shadow: 3px 4px 25px black;
+    border:  solid black;
     padding: 0.40rem;
     text-align: left;
     margin-right: 30px;
+}
+.imge:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 4px 20px;
 }
 section {
     display: flex;
@@ -15,19 +19,30 @@ section {
 }
 h2 {
     text-align: center;
-    color: rgb(91, 48, 75);
-    text-shadow: 3px 4px 25px;
+    color: #db7006;
+    text-shadow: 2px 1px 2px rgb(16, 14, 12);
+    box-shadow: 2px 2px black;
+    margin: 6rem;
 }
 .call-to-action {
     text-align: center;
-    background-color: rgb(91, 48, 75);
-    border-radius: 10px;
-    color: rgb(250, 248, 246);
-    padding: 10px;
-    box-shadow: 3px 8px 25px black;
+    background-color: #db7006;
+    color: #ffffff;
+    text-shadow:2px 4px 5px rgb(16, 14, 12) ;
+    padding: 20px;
+}
+main div img {
+    position: absolute;
+    left: 180px;
+    bottom: 520px;
 }
 .call-to-action a {
-    color: rgb(244, 247, 250);
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-primary:hover {
+    transform: scale(1.2);
+    text-shadow: 2px 3px #02060c;
 }
 .table-trips {
     text-align: center;
@@ -40,4 +55,15 @@ h2 {
 footer{
     text-align: center;
     padding: 50px;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(255, 132, 0) ;
+}
+.trips {
+    margin: 50px;
+}
+main section p {
+    margin: 40px;
+    margin-right: 80px;
 }
